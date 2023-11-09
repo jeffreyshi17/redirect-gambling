@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import RedirectPage from './RedirectPage';
 import ButtonList from './ButtonList';
 
@@ -8,7 +8,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/:gistId" element={<RedirectPage />} />
-        <Route path="/" element={<ButtonList />} /> {/* Optional: If you want a default behavior */}
+        <Route path="/" element={<ButtonList />} />
       </Routes>
     </Router>
   );
