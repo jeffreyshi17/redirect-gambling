@@ -1,0 +1,30 @@
+.button-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.button-link {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
+.button-link.disabled {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
