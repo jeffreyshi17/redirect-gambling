@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/redirect-gambling/static/css/main.74f4b2c3.css",
+    "main.js": "/redirect-gambling/static/js/main.c998306b.js",
+    "static/js/787.cf133456.chunk.js": "/redirect-gambling/static/js/787.cf133456.chunk.js",
+    "index.html": "/redirect-gambling/index.html",
+    "main.74f4b2c3.css.map": "/redirect-gambling/static/css/main.74f4b2c3.css.map",
+    "main.c998306b.js.map": "/redirect-gambling/static/js/main.c998306b.js.map",
+    "787.cf133456.chunk.js.map": "/redirect-gambling/static/js/787.cf133456.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74f4b2c3.css",
+    "static/js/main.c998306b.js"
+  ]
+}
